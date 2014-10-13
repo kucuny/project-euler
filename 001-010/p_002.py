@@ -19,6 +19,3 @@ def even_fibonacci_numbers(maximum):
             total += fibo_result
 
         init_value += 1
-
-
-print even_fibonacci_numbers(4000000)
