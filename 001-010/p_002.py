@@ -9,7 +9,7 @@ def even_fibonacci_numbers(maximum):
     init_value = 1
     total = 0
 
-    while (1):
+    while True:
         fibo_result = fibo(init_value)
 
         if fibo_result > maximum:

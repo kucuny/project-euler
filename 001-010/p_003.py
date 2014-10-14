@@ -1,6 +1,6 @@
 def largest_prime_factor(maximum):
     init_value = 2
-    while(1):
+    while True:
         if init_value == maximum:
             return init_value
 
