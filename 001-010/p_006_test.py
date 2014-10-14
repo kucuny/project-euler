@@ -1,5 +1,6 @@
-from p_006 import get_sum_of_the_squares, get_squares_of_the_sum, get_sum_square_difference
 import unittest
+
+from p_006 import get_sum_of_the_squares, get_squares_of_the_sum, get_sum_square_difference
 
 
 class TestSumSquareDifference(unittest.TestCase):
@@ -11,6 +12,7 @@ class TestSumSquareDifference(unittest.TestCase):
 
     def test_get_sum_square_difference_is_first_hundred(self):
         self.assertEqual(get_sum_square_difference(100), 25164150)
+
 
 if __name__ == '__main__':
     unittest.main()
